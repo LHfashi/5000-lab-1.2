@@ -1,0 +1,83 @@
+---
+title: "simple_quarto_website"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+
+
+
+
+
+---
+title: "Professional Project Overview"
+output:
+  html_document:
+    toc: true
+---
+
+# Introduction {#section1}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+## Overview {#subsection1}
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+### Two Columns Text
+
+:::::: {.columns}
+::: {.column}
+- Performance Tracking
+- Time Based Filtering
+:::
+::: {.column}
+For monitoring changes in performance of a cyclist, an ergometer should introduce negligible random error (variation) in its measurements; in this respect, SRM cranks appear to be the best ergometer, but more comparison studies of ergometers are needed. [@paton2001tests].
+:::
+::::::
+
+### Table Example
+
+| Header1 | Header2 | Header3 |
+|---------|---------|---------|
+| Data1   | Data2   | Data3   |
+
+## Equations {#subsection2}
+
+Inline Math Equation: $E=mc^2$
+
+Non-Inline Math Equation:
+
+$$
+F = ma
+$$
+
+## Additional Sections {#subsection3}
+
+> "Pictures and Video"
+
+![Image1 Description](images\pic1.png)
+![Image2 Description](images\pic2.png)
+
+[![Video Description]](https://www.youtube.com/watch?v=KWPC7zj2e2E)
+
+### Mermaid Diagram
+
+```mermaid
+graph TB
+    c1-->a2
+    subgraph one
+    a1-->a2
+    end
+    subgraph two
+    b1-->b2
+    end
+    subgraph three
+    c1-->c2
+    end
+
+
+
+
